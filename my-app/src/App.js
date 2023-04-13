@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import List from './List';
+import Approach1 from './Approach1';
+import Approach2 from './Approach2';
 
 function App() {
   return (
     <div className="App">
-       <List/>
+       <Approach1/>
+       <Approach2/>
     </div>
   );
 }
